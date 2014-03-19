@@ -18,8 +18,23 @@
 		BE25BBBA16C869840087A092 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE25BBB916C869840087A092 /* Default-568h@2x.png */; };
 		BE25BBBD16C869840087A092 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE25BBBC16C869840087A092 /* ViewController.m */; };
 		BE25BBC016C869840087A092 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE25BBBE16C869840087A092 /* ViewController.xib */; };
+		BE7AE76718D9BA6D003BDC64 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7AE76618D9BA6D003BDC64 /* XCTest.framework */; };
+		BE7AE76818D9BA6D003BDC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE25BBA516C869840087A092 /* Foundation.framework */; };
+		BE7AE76918D9BA6D003BDC64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE25BBA316C869840087A092 /* UIKit.framework */; };
+		BE7AE76F18D9BA6D003BDC64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE7AE76D18D9BA6D003BDC64 /* InfoPlist.strings */; };
+		BE7AE77118D9BA6D003BDC64 /* GIDACalculateStringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7AE77018D9BA6D003BDC64 /* GIDACalculateStringTests.m */; };
 		BE98117816C86A9A0034F489 /* GIDACalculateString.m in Sources */ = {isa = PBXBuildFile; fileRef = BE98117716C86A9A0034F489 /* GIDACalculateString.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7AE77318D9BA6D003BDC64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE25BB9816C869840087A092 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE25BB9F16C869840087A092;
+			remoteInfo = Demo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BE25BBA016C869840087A092 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +53,12 @@
 		BE25BBBB16C869840087A092 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BE25BBBC16C869840087A092 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE25BBBF16C869840087A092 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BE7AE76518D9BA6D003BDC64 /* GIDACalculateStringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GIDACalculateStringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7AE76618D9BA6D003BDC64 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE7AE76C18D9BA6D003BDC64 /* GIDACalculateStringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIDACalculateStringTests-Info.plist"; sourceTree = "<group>"; };
+		BE7AE76E18D9BA6D003BDC64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE7AE77018D9BA6D003BDC64 /* GIDACalculateStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIDACalculateStringTests.m; sourceTree = "<group>"; };
+		BE7AE77218D9BA6D003BDC64 /* GIDACalculateStringTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GIDACalculateStringTests-Prefix.pch"; sourceTree = "<group>"; };
 		BE98117616C86A9A0034F489 /* GIDACalculateString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIDACalculateString.h; sourceTree = "<group>"; };
 		BE98117716C86A9A0034F489 /* GIDACalculateString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIDACalculateString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +74,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE7AE76218D9BA6D003BDC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7AE76718D9BA6D003BDC64 /* XCTest.framework in Frameworks */,
+				BE7AE76918D9BA6D003BDC64 /* UIKit.framework in Frameworks */,
+				BE7AE76818D9BA6D003BDC64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				BE25BBA916C869840087A092 /* Demo */,
+				BE7AE76A18D9BA6D003BDC64 /* GIDACalculateStringTests */,
 				BE25BBA216C869840087A092 /* Frameworks */,
 				BE25BBA116C869840087A092 /* Products */,
 			);
@@ -69,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				BE25BBA016C869840087A092 /* Demo.app */,
+				BE7AE76518D9BA6D003BDC64 /* GIDACalculateStringTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +112,7 @@
 				BE25BBA316C869840087A092 /* UIKit.framework */,
 				BE25BBA516C869840087A092 /* Foundation.framework */,
 				BE25BBA716C869840087A092 /* CoreGraphics.framework */,
+				BE7AE76618D9BA6D003BDC64 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +146,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BE7AE76A18D9BA6D003BDC64 /* GIDACalculateStringTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7AE77018D9BA6D003BDC64 /* GIDACalculateStringTests.m */,
+				BE7AE76B18D9BA6D003BDC64 /* Supporting Files */,
+			);
+			path = GIDACalculateStringTests;
+			sourceTree = "<group>";
+		};
+		BE7AE76B18D9BA6D003BDC64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE7AE76C18D9BA6D003BDC64 /* GIDACalculateStringTests-Info.plist */,
+				BE7AE76D18D9BA6D003BDC64 /* InfoPlist.strings */,
+				BE7AE77218D9BA6D003BDC64 /* GIDACalculateStringTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +185,24 @@
 			productReference = BE25BBA016C869840087A092 /* Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BE7AE76418D9BA6D003BDC64 /* GIDACalculateStringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7AE77718D9BA6D003BDC64 /* Build configuration list for PBXNativeTarget "GIDACalculateStringTests" */;
+			buildPhases = (
+				BE7AE76118D9BA6D003BDC64 /* Sources */,
+				BE7AE76218D9BA6D003BDC64 /* Frameworks */,
+				BE7AE76318D9BA6D003BDC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7AE77418D9BA6D003BDC64 /* PBXTargetDependency */,
+			);
+			name = GIDACalculateStringTests;
+			productName = GIDACalculateStringTests;
+			productReference = BE7AE76518D9BA6D003BDC64 /* GIDACalculateStringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +211,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Alejandro Paredes Alva";
+				TargetAttributes = {
+					BE7AE76418D9BA6D003BDC64 = {
+						TestTargetID = BE25BB9F16C869840087A092;
+					};
+				};
 			};
 			buildConfigurationList = BE25BB9B16C869840087A092 /* Build configuration list for PBXProject "Demo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -154,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				BE25BB9F16C869840087A092 /* Demo */,
+				BE7AE76418D9BA6D003BDC64 /* GIDACalculateStringTests */,
 			);
 		};
 /* End PBXProject section */
@@ -171,6 +248,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE7AE76318D9BA6D003BDC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7AE76F18D9BA6D003BDC64 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -185,7 +270,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE7AE76118D9BA6D003BDC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7AE77118D9BA6D003BDC64 /* GIDACalculateStringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7AE77418D9BA6D003BDC64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE25BB9F16C869840087A092 /* Demo */;
+			targetProxy = BE7AE77318D9BA6D003BDC64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BE25BBAC16C869840087A092 /* InfoPlist.strings */ = {
@@ -202,6 +303,14 @@
 				BE25BBBF16C869840087A092 /* en */,
 			);
 			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		BE7AE76D18D9BA6D003BDC64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7AE76E18D9BA6D003BDC64 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -285,6 +394,69 @@
 			};
 			name = Release;
 		};
+		BE7AE77518D9BA6D003BDC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GIDACalculateStringTests/GIDACalculateStringTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "GIDACalculateStringTests/GIDACalculateStringTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE7AE77618D9BA6D003BDC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Demo.app/Demo";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GIDACalculateStringTests/GIDACalculateStringTests-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = "GIDACalculateStringTests/GIDACalculateStringTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -305,6 +477,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BE7AE77718D9BA6D003BDC64 /* Build configuration list for PBXNativeTarget "GIDACalculateStringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7AE77518D9BA6D003BDC64 /* Debug */,
+				BE7AE77618D9BA6D003BDC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
